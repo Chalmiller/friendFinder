@@ -1,0 +1,19 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Friend Finder utilizing a rating score based off of mutual interests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chalmiller/friendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chalmiller/friendFinder/issues"
+  },
+  "homepage": "https://github.com/Chalmiller/friendFinder#readme"
+}
