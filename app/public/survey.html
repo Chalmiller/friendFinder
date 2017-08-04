@@ -180,7 +180,6 @@
       $(document).ready(function() {
         $('#submitButton').on('click', function() {
           fieldsCompleted(function(){
-            // Proceed with AJAX call if all questions are answered
             if(allFieldsCompleted){
               collectInputs();
             }
@@ -213,7 +212,6 @@
       function collectInputs(){
         var newFriend = {
           name: $('#formName').val().trim(),
-          photo: $('#formImage').val().trim(),
           scores: []
         };
         var scoresArray = [];
